@@ -42,10 +42,18 @@
 
   .about{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: -150px;
   }
-  
-  .container{
-    width: 600px;
+
+  .container h2{
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .container p{
+    font-size: 36px;
+    font-weight: 400;
   }
 
   .filters {
@@ -130,5 +138,8 @@
   body.dark .filter-btn.active {
     background-color: #888;
   }
+  
+  
+
   
   
